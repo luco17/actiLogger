@@ -43,7 +43,7 @@ def log(update: Update, context: CallbackContext) -> None:
         'activity': activity,
         'date': date,
         'minutes': duration})
-    
+
 
 def main() -> None:
     """Start ze bot"""
